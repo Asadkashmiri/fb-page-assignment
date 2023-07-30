@@ -1,0 +1,76 @@
+#main {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(225, 233, 240);
+    padding: 0px 50px;
+    justify-content: space-evenly;
+}
+
+#fb-heading {
+    width: 30%;
+}
+
+#main #fb-heading h1 {
+    font-size: 3vw;
+    color: rgb(41, 137, 247);
+    margin: 0;
+    padding: 0;
+}
+
+#main #fb-heading p {
+    /* text-align: justify; */
+    margin: 0;
+    padding: 0;
+    font-size: 1.3vw;
+    word-spacing: 5px;
+}
+
+#input {
+    background-color: white;
+    height: 50vh;
+    width: 50vh;
+    display: block;
+    padding: 20px 20px;
+}
+
+#input input {
+    height: 40px;
+    width: 95%;
+    margin: 8px 0px;
+}
+
+#input .login {
+    width: 97%;
+    height: 43px;
+    color: white;
+    background-color: rgb(41, 137, 247);
+}
+
+#input a {
+    text-decoration: none;
+    color: rgb(41, 137, 247);
+    text-align: center;
+}
+
+#input #creat {
+    height: 40px;
+    width: 10vw;
+    border-radius: 5%;
+    border: none;
+    background-color: rgb(41, 181, 41);
+    color: white;
+    font-weight: bold;
+}
+
+#input #fc {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+hr {
+    width: 96%;
+}
