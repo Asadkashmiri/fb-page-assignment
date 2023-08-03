@@ -74,3 +74,59 @@
 hr {
     width: 96%;
 }
+@media (max-width:700px) {
+    #main{
+        display: block;
+        border: 2px solid red;
+        padding: 0 25%;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(59, 89, 153);
+    }
+    #main #fb-heading h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+
+margin: 50px;
+    }
+    #main #fb-heading p {
+        display: none;
+    }
+    #input {
+        background-color: rgb(59, 89, 153);
+        /* margin: 15px 0px; */
+        padding: 0;
+    }
+    #input input{
+height: 2em;
+width: 25em;
+margin: 10px 0px;
+
+
+    }
+    #input .login {
+        width: 25.4em;
+        height: 3.5em;
+        color: white;
+        background-color: rgb(5, 64, 118);
+        margin-top: 20px;
+    }
+hr{
+    display: none;
+}
+#input a{
+    color: white;
+}
+#input #creat{
+width: 12em;
+
+}
+#fc{
+    margin: auto;
+display: block;
+}
+
+
+
+}
